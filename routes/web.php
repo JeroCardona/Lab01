@@ -24,4 +24,3 @@ Route::get('/image-not-di', 'App\Http\Controllers\ImageNotDIController@index')->
 Route::post('/image-not-di/save', 'App\Http\Controllers\ImageNotDIController@save')->name('imagenotdi.save');
 
 Auth::routes();
-
